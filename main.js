@@ -34,6 +34,48 @@ const z=6
 
  const poruka2=`godina im: ${godine}, meseci  `
  console.log(poruka2);
+
+    
+
+const a=5
+const b= 10
+const povrsinaPravouganika=a*b
+const obimPravougaonika=2*a+2*b
+console.log(povrsinaPravouganika);
+console.log(obimPravougaonika);
+const poruka5=`Povrsina pravougaionika je  ${povrsinaPravouganika}, obim pravougaonika je  ${obimPravougaonika}`
+console.log(poruka5);
+
+const pi=3.14
+const r=5
+const obimKruga=(2*pi*r).toFixed(2)
+const povrsinaKruga=pi*(r*r)
+const poruka6=`Obim kruga je  ${obimKruga}, povrsina kruga je  ${povrsinaKruga}`
+console.log(poruka6);
+
+
+const povrsinaLopte=4*pi*(r*r)
+const zapreminaLopte=((3/4)*pi*(r*r*r)).toFixed(2)
+const poruka3=`Povrsina lopte je  ${povrsinaLopte}, zapremina lopte je  ${zapreminaLopte}`
+console.log(poruka3);
+
+
+const kilometri=2000
+const t=10
+const prosecnaBrzina=(kilometri/t).toFixed(1)
+const poruka4=`prosecna brzina je  ${prosecnaBrzina}`
+console.log(poruka4);
+
+
+const farenhajt=100
+const celzijus= ((5/9)*(farenhajt-32)).toFixed(2)
+const poruka10=`Ovoliko ima celzijusa  ${celzijus}`
+console.log(poruka10);
+
+
+
+
+
  
 
  
